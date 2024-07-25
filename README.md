@@ -98,8 +98,15 @@ npm run balance-of
 ```bash
 npm run transfer
 ```
+### 11. Uploud ke github
 
-### 11. Finsihed
+```bash
+git init
+git add .
+git remote set-url origin https://github.com/rabbinik/Mint-100-ERC-20-tokens.git
+git push -u origin main
+```
+### 12. Finsihed
 
 - Open the deployed-adddress.ts (location in utils folder)
 - Copy the address and paste the address in testnet dashboard
